@@ -25,11 +25,11 @@ function Janela() {
     }
   }
 
-
   for (let i = 0; i < 12; i++) {
     arrayJanela.push(<Janelas key={i} isActive={isActive} onClick={hadleActive}>
     </Janelas>)
   }
+
   return (
     <>
       { arrayJanela}

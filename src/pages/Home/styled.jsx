@@ -1,10 +1,5 @@
 import styled from 'styled-components'
 
-export const Content = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-  width: 20em;
-`;
 export const Predio = styled.div`
   display:flex;
   flex-wrap:wrap;
@@ -19,3 +14,8 @@ export const Predio = styled.div`
 `;
 
 
+export const Content = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+`;

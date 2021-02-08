@@ -1,9 +1,9 @@
-import { Building } from './components'
+import { Home } from './pages'
 
 function App() {
   return (
     <>
-      <Building />
+      <Home />
     </>
   );
 }
