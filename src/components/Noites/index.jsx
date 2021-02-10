@@ -1,12 +1,20 @@
 import React from 'react';
 
-import { Container, Stars, Stars2 } from './styled';
+import { Container, Stars, Stars01, Stars02, Stars03, Stars04, Stars05, Stars2, Stars201, Stars203 } from './styled';
 
 function Noites() {
   return (
     <Container>
       <Stars></Stars>
+      <Stars01></Stars01>
       <Stars2></Stars2>
+      <Stars02></Stars02>
+      <Stars201></Stars201>
+      <Stars03></Stars03>
+      <Stars203></Stars203>
+      <Stars04></Stars04>
+      <Stars05></Stars05>
+
     </Container>
   );
 }
