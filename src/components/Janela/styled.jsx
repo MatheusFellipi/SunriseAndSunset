@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const buttonDiv = styled.div`
+  position: absolute;
+  top:0;
+ 
+`;
 
 export const Janelas01 = styled.div`
   position: relative;
@@ -17,7 +22,7 @@ export const Janelas01 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -25,8 +30,8 @@ export const Janelas01 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -37,17 +42,13 @@ export const Janelas02 = styled.div`
   height: 100px;
   margin: 10px;
   background-color:${({ isActive02 }) => isActive02 ? '#fbff00' : '#446677'};
-  .all{
-  background-color:${({ isActive02 }) => isActive02 ? '#fbff00' : '#446677'};
-
-  }
   ::before{
     content:" ";
   position: absolute;
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -55,8 +56,8 @@ export const Janelas02 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -73,7 +74,7 @@ export const Janelas03 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -81,8 +82,8 @@ export const Janelas03 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -99,7 +100,7 @@ export const Janelas04 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -107,8 +108,8 @@ export const Janelas04 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -124,7 +125,7 @@ export const Janelas05 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -132,8 +133,8 @@ export const Janelas05 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -150,7 +151,7 @@ export const Janelas06 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -158,8 +159,8 @@ export const Janelas06 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -175,7 +176,7 @@ export const Janelas07 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -183,8 +184,8 @@ export const Janelas07 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -201,7 +202,7 @@ export const Janelas08 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -209,8 +210,8 @@ export const Janelas08 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -226,7 +227,7 @@ export const Janelas09 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -234,8 +235,8 @@ export const Janelas09 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -252,7 +253,7 @@ export const Janelas10 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -260,8 +261,8 @@ export const Janelas10 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -277,7 +278,7 @@ export const Janelas11 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -285,8 +286,8 @@ export const Janelas11 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;
@@ -303,7 +304,7 @@ export const Janelas12 = styled.div`
   width: 61px;
   height: 5px;
   margin-top: -1px;
-  background:linear-gradient(0, #0f1315, #446677);
+  background:linear-gradient(0, #141e22, #0f1315);
   }
 ::after{
   content:" ";
@@ -311,8 +312,8 @@ export const Janelas12 = styled.div`
   width: 61px;
   height: 20px;
   margin-top: 82px;
-  background:linear-gradient(0, #0f1315, #446677);
-  box-shadow: 1px 6px 3px #1d1d1d;
+  background:linear-gradient(0, #141e22, #0f1315);
+  
 }
   
 `;

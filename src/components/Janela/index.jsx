@@ -1,11 +1,10 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Janelas01, Janelas02, Janelas03, Janelas04, Janelas05, Janelas06,
   Janelas07, Janelas08, Janelas09, Janelas10, Janelas11, Janelas12
 } from './styled'
 
-function Janela() {
-  const [isActive, setIsActive] = useState(false);
+function Janela({ isActive }) {
   const [isActive01, setIsActive01] = useState(false);
   const [isActive02, setIsActive02] = useState(false);
   const [isActive03, setIsActive03] = useState(false);
@@ -19,7 +18,7 @@ function Janela() {
   const [isActive11, setIsActive11] = useState(false);
   const [isActive12, setIsActive12] = useState(false);
 
-  const hadleActiveAll = () => {
+  useEffect(() => {
     if (isActive) {
       setIsActive01(false);
       setIsActive02(false);
@@ -33,7 +32,6 @@ function Janela() {
       setIsActive10(false);
       setIsActive11(false);
       setIsActive12(false);
-      setIsActive(false)
     }
     if (!isActive) {
       setIsActive01(true);
@@ -48,9 +46,8 @@ function Janela() {
       setIsActive10(true);
       setIsActive11(true);
       setIsActive12(true);
-      setIsActive(true)
     }
-  }
+  }, [isActive])
 
 
   const hadleActive = (id) => {
@@ -132,10 +129,7 @@ function Janela() {
 
   return (
     <>
-      <div>
-        <button onClick={hadleActiveAll}></button>
 
-      </div>
       <Janelas01 isActive01={isActive01} onClick={() => hadleActive(1)}></Janelas01>
       <Janelas02 isActive02={isActive02} onClick={() => hadleActive(2)}></Janelas02>
       <Janelas03 isActive03={isActive03} onClick={() => hadleActive(3)}></Janelas03>

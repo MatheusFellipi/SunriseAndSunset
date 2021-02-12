@@ -3,8 +3,11 @@ import styled, { keyframes } from "styled-components"
 export const Container = styled.div`
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(0, #120c56, #000000);
-`;
+  background: rgb(77,39,115);
+  background: -moz-linear-gradient(0deg, rgba(77,39,115,1) 10%, rgba(41,28,89,1) 37%, rgba(41,28,89,1) 61%, rgba(15,14,38,1) 79%);
+  background: -webkit-linear-gradient(0deg, rgba(77,39,115,1) 10%, rgba(41,28,89,1) 37%, rgba(41,28,89,1) 61%, rgba(15,14,38,1) 79%);
+  background: linear-gradient(0deg, rgba(77,39,115,1) 10%, rgba(41,28,89,1) 37%, rgba(41,28,89,1) 61%, rgba(15,14,38,1) 79%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d2773",endColorstr="#0f0e26",GradientType=1);`;
 
 const AnimationStar = keyframes`
     from {
@@ -14,7 +17,38 @@ const AnimationStar = keyframes`
         transform: translateY(-150px);
     }
 `;
-
+export const Lua = styled.div`
+ position:relative;
+ background:#fff;
+ border-radius: 50%;
+ top:0px;
+ width:150px;
+ height:150px;
+ border:8px solid transparent;
+ background-image: -webkit-radial-gradient(circle, #f5f5f5 50%, rgba(0,0,0,.6));
+ background-image: -moz-radial-gradient(circle, #f5f5f5 50%, rgba(0,0,0,.6));
+ background-image: -o-radial-gradient(circle, #f5f5f5 50%, rgba(0,0,0,.6));
+ background-image: -ms-radial-gradient(circle, #f5f5f5 50%, rgba(0,0,0,.6));
+ background-image: radial-gradient(circle, #f5f5f5 50%, rgba(0,0,0,.6));
+ box-shadow: 0px -1px 20px white;
+ ::before{
+  background: #c4afda;
+ background-image: -webkit-radial-gradient(circle,#f5f5f5 50%, #f5f5f5);
+ background-image: -moz-radial-gradient(circle,#f5f5f5 50%, #f5f5f5);
+ background-image: -o-radial-gradient(circle,#f5f5f5 50%, #f5f5f5);
+ background-image: -ms-radial-gradient(circle,#f5f5f5 50%, #f5f5f5);
+ background-image: radial-gradient(circle,#f5f5f5 50%, #f5f5f5);
+ content: "";
+ border-radius: 50%;
+ border:8px solid #f5f5f5;
+ width: 50px;
+ height:50px;
+ position: absolute;
+ top:42px;
+ left:42px;
+ }
+ 
+`;
 
 export const Stars = styled.div`
   margin:0 0 0 0;
